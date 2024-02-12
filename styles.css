@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif ;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    min-height: 100vh;  
+    flex-direction: column;
+}
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 6px;
+}
+
+.flex {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+form {
+    border: 2px solid rgba(223, 223, 223, 0.706);
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+    width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+label {
+    margin: 20px;
+}
+
+#continue {
+    background-color: rgb(255, 187, 0);
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid rgb(146, 120, 6);
+    color: rgb(58, 48, 5);;
+}
+
+.brand {
+    margin-bottom: 100px;
+}
+.form-footer {
+    margin: 25px 0px;
+    width: 100%;
+}
+
+.form-footer .label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-footer .label hr {
+    width: 50%;
+}
+
+.form-footer .label span {
+    text-align: center;
+    width: 50%;
+}
+
+button.signup {
+    margin: 20px 0px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+}
+
+footer {
+    width: 100%;
+    padding: 50px;
+    border-top: 2px solid grey;
+    text-align: center;
+}
+
+footer ul.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul.footer-nav li {
+    list-style: none;
+    padding: 15px;
+}
+
+footer ul.footer-nav li a {
+    text-decoration: none;
+}
